@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TABLES</title>
+    </head>
+    <body>
+        <table>
+            <style>
+                table {
+                    border: 3px solid black;
+                    border-collapse: collapse;
+
+                }
+                td{
+                    border: 2px solid red;
+                    
+                }
+            </style>
+            <thead>
+                <tr>
+                <th>Toyota</th>
+                <th>Mazda</th>
+                <th>Nissan</th>
+                <th>Chevrolet</th>
+                <th>Ford</th>
+                <th>Dodge</th>
+                <th>Mitsubishi</th>
+                <th>Isuzu</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hilux</td>
+                    <td>Demio</td>
+                    <td>Hardbody</td>
+                    <td>Tahoe</td>
+                    <td>Ranger</td>
+                    <td>Durango</td>
+                    <td>Outlander</td>
+                    <td>Dmax</td>
+                </tr>
+                <tr>
+                    <td>Hiace</td>
+                    <td>Atenza</td>
+                    <td>Patrol</td>
+                    <td>Silverado</td>
+                    <td>F250</td>
+                    <td>Challenger</td>
+                    <td>L200 Barbarian</td>
+                    <td>FRR</td>
+                </tr>
+            </tbody>
+        </table>
+        <P>Above is the table which contains Vehicle models and their names. Below you can choose which vehicle make is yours.</P>
+        <div>
+            <input name="Vehicle Model;" list="Vehicles" placeholder="Vehicle">
+            <datalist id="Vehicles">
+                <option value="Toyota Hilux">
+                <option value="Mazda Demio">
+                    <option value="Mitsubishi L200">
+                        <option value="Nissan Hardbody">
+                            <option value="Ford Transit">
+                                <option value="Isuzu Dmax">
+                                    <option value="Tesla">
+                                        <option value="Lamboghini">
+
+            </datalist>
+        </div>
+    </body>
+</html>
